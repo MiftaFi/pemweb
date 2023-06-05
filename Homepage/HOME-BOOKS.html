@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+       
+
+        body{
+         
+         /* background-color: rgb(198 198 198); */
+         background-color: rgb(238, 235, 255);
+     }
+
+/* ******************navtar************ */
+
+.navtar{
+    display: flex;
+    height: 60px;
+    /* background-color: black; */
+    align-items: center;   
+    position: sticky;
+    top: 0px;
+
+}
+.navtar::before{
+    content: "";
+    /* background-color: Black; */
+    /* background-color: white; */
+    background-color: #232B38;
+    /* background-color: rgb(123, 116, 180); */
+
+    
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.navtar ul{
+    display: flex;
+    /* padding: 2px; */
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.navtar ul li{
+    /* display: inline-block;
+    padding: 5px;
+    margin: 3px;
+    font-size: 18px; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.navtar ul li a{
+    color: white;
+    /* color: black; */
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.navtar ul li a:hover{
+    color: black;
+    /* color: white; */
+    background-color: white;
+    /* background-color: black; */
+}
+
+
+
+/* **********************navbar**************** */
+
+.navbar{
+    display: flex;
+    /* height: 100px; */
+    /* background-color: black; */
+    align-items: center;   
+    position: sticky;
+    margin-top: 0px;
+}
+
+
+
+.navbar::before{
+    content: "";
+    /* background-color: Black; */
+    /* background-color: white; */
+    background-color: #232B38;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+
+
+.logo img{
+    height: 100px;
+    
+}
+
+
+.navbar ul{
+    display: flex;
+    /* padding: 2px; */
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.navbar ul li{
+    /* display: inline-block;
+    padding: 5px;
+    margin: 3px;
+    font-size: 18px; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.navbar ul li a{
+    color: white;
+    /* color: black; */
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: black;
+    /* color: white; */
+    background-color: white;
+    /* background-color: black; */
+}
+/* *************************iframe**************** */
+.container1{
+   margin:0 auto;
+   height: 500px;
+   width: 1200px;
+   border: 1px white;
+   border-radius: 15px;
+}
+
+iframe{ 
+    height: 500px;
+    width: 1200px; 
+    
+    border-radius: 15px; 
+    
+} 
+
+a{
+  text-decoration: none;
+}
+
+/* *****************books*************** */
+.conter{
+    
+    display: flex;
+    height: 488px;
+    /* border: 1px solid black;
+    padding: 2rem; */
+    justify-content : space-evenly;
+
+} 
+
+.conter div{
+  background-color:ghostwhite;
+  
+  padding: 1.6rem;
+  width: 20%;
+  
+}
+
+.line{
+  text-decoration: none;
+}
+.buynow{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 6px 15px;
+  border: 2px solid white;
+  /* background-color:  rgb(66, 66, 92); */
+  background-color: rgb(123, 116, 180);
+  opacity: inherit;
+  color: white;
+  margin: 12px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+a{
+  text-decoration: none;
+  
+}
+.buynow:hover{
+  color: rgb(255, 251, 251);
+  background-color: rgb(59, 35, 92);
+  border:rgb(27, 14, 27)
+}
+
+.buynow:active{
+  background-color: rgb(10, 9, 10);
+}
+
+/* *******************backgroundimage*************** */
+/* 
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px ;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(img/books.jpg) no-repeat center/cover;
+    height: 642px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+} */
+
+/* Banner */
+
+.banner{
+    /* background-color: rgb(123, 116, 180); */
+    background-color: rgb(238, 235, 255);
+    background-size: cover;
+    margin-top: 0px;
+}
+
+.banner img{
+    width: 100vw;
+    height: 60vh;
+    background-size: cover;
+    position: relative;
+    /* text-align: center; */
+    color: white;  
+    opacity: 1;
+}
+
+.world_best{
+    font-size: 43px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+}
+
+.world_best p{
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    color: #2D333F;
+}
+/* **********************conaiter****** */
+.common{
+    /* background-color: rgb(123, 116, 180); */
+    background-color: rgb(238, 235, 255);
+    display: flex;
+    height: 500px;
+    /* border: 1px solid black;
+    padding: 2rem; */
+    justify-content : space-around;
+    
+} 
+
+.common div{
+  /* background-color:ghostwhite; */
+  background-color: rgb(238, 235, 255);
+  margin: 15px;
+  padding: 1.6rem;
+  width: 20%;
+  border-radius: 15px;
+}
+
+.line{
+  text-decoration: none;
+}
+.buynow{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 6px 15px;
+  border: 2px solid rgb(46, 44, 44);
+  background-color:  rgb(66, 66, 92);
+  opacity: inherit;
+  color: white;
+  margin: 12px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.buynow:hover{
+  color: rgb(255, 251, 251);
+  background-color: rgb(18, 7, 32);
+  border:rgb(27, 14, 27);
+}
+
+.buynow:active{
+  background-color: rgb(10, 9, 10);
+}
+
+.common img:hover {
+  animation: shake 1.1s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+</style>
+</head>
+<body>
+
+    <!-- *************************main CODE****************** -->
+
+    <!-- ********************navbar******************** -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="HOME-BOOKS.html">Book</a></li>
+            <li><a href=".html">About</a></li>
+            <li><a href=".html">Contact</a></li>
+            <li><a href=".html">Sign In</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- ******************backgroundimage************** -->
+<!-- <section id="home">
+    <h1 class="h-primary">Welcome</h1>
+    <p>What do you prefer to eat?</p>
+    <a href="bbpd.html"><button class="btn"> Order Now </button></a>
+</section> -->
+<div class="banner">
+    <img src="img/books.jpg" alt="">
+    <div class="world_best">
+        <p>Welcome to,</p>
+        <span class="world">The World Best Rent Books Website</span> <br><br>
+        <p>Most trusted E-commerce Website <P>to Rent Books</P></p>
+    </div>
+</div> 
+<!-- *******************category navbar***************** -->
+<nav class="navtar">
+    
+    <ul>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li><a href="EXAM.HTML">Romance</a></li>&nbsp;
+        <li><a href="fictionmain.HTML">Fiction</a></li>&nbsp;
+        <li><a href="Bussiness.html">Historical</a></li>&nbsp;
+        <li><a href="Horror.html">Horror</a></li>
+        <li><a href="Non-Fantasy.html">Thriller</a></li>
+    </ul>
+</nav>
+
+
+<!-- ************iframe*********** -->
+
+<br><br>
+<div class="container1">
+    
+    <iframe src="https://source.unsplash.com/1200x500/?books " frameborder="0"  name="abcd"></iframe>
+</div>
+
+<br>
+
+<center><a href="https://source.unsplash.com/1200x500/?books" target="abcd">
+    <span><b >*</b></span> &nbsp;
+    <span><b>*</b></span>&nbsp;
+    <span><b>*</b></span>&nbsp;
+    <span><b>*</b></span>&nbsp;
+</a></center>
+<br>
+<br>
+<!-- *******************title******************* -->
+<CENTER><h1 style="font-size: 25px; background-color:rgb(49, 49, 107); color: white; font-weight: bold; width: 300px; padding: 5px;border-radius: 15px;">TOP TRENDING BOOK</h1></CENTER>
+<br>
+<br>
+<!-- **************cotainer************ -->
+<div class="common">
+    
+    
+    <div class="item1"><center><img src="img/FAN1.jpeg" width="200" height="300"></center>
+        <p><b>Harry Potter and the Prisoner of Azkaban</b></p>
+        <p><b>J.K. Rowling (Author)</b></p>
+        <BR>
+        
+        &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.amazon.in/dp/B07YLPPZ4T?tag=kp-mob-price-in-india-21&linkCode=ogi&th=1&psc=1&SubscriptionId=AKIAJZ7ZVEW7WHEFIMWA&ascsubtag=69735660"><span class="buynow"> <b>SEWA</b></span></a>
+    </div>
+    <div class="item1"><center><img src="img/H1.webp" width="200" height="300"></center>
+        <p><b>And the Roses Bled </b></p>
+        <p><b>by Mehak Daleh (Author)</b></p>
+        <br><br>
+        
+        &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.amazon.in/Roses-Bled-Mehak-Daleh/dp/9388144074/ref=sr_1_2_sspa?dchild=1&keywords=horror+books&qid=1627839563&sr=8-2-spons&psc=1&"><span class="buynow"> <b>SEWA</b></span></a>
+    </div>
+    
+    <div class="item1"><center><img src= "img/FAN3.webp" width="200" height="300"></center><p><b>The Oath of the Vayuputras: Shiva Trilogy  </b>
+    </p>
+    <p><B>by Amish Tripathi (Author)</B></p>
+    <br>
+    &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://www.snapdeal.com/product/oath-of-vayuputras/673467455319#bcrumbSearch:fantasy%20book"><span class="buynow"> <b>SEWA</b></span></a>
+</div>
+
+
+<div class="item1"><center><img src= "img/FAN4.jpg" width="200" height="300"></center><p><b>The Creature on the Moonlit Road: More Stories of the Supernatural</b> </p>
+    
+   <p><b>by James (Author)</b></p>
+   <br>
+   &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+   <a href="https://www.snapdeal.com/product/the-creature-on-the-moonlit/663371849615"> <span class="buynow"> <b>SEWA</b></span></a>
+</div>
+
+</diV>
+<BR>
+</div>
+
+
+<!-- *************************PUBLISHER********************************** -->
+
+<CENTER><h1 style="font-size: 25px; background-color:rgb(49, 49, 107); color: white; font-weight: bold; width: 300px; padding: 5px;border-radius: 15px;">Featured Publisher</h1></CENTER>
+<br>
+<center><div style="border:1px rgb(227, 212, 228); height: 300px; width: 1200px;">
+
+    
+    <table >
+        <tr style="padding: 6px; margin: 20px;">
+            <td><img src=".jpg"></td>
+            <td><img src=".jpg"></td>
+        </tr>
+        <br><br>
+        <tr align="center" style="padding: 6px; margin: 20px;">
+            <td><h3>Gramedia.</h3> </td>
+            <td><h3>Gramedia</h3></td>
+        </tr>
+    </table>
+    
+</div>
+</center>
+
+<!-- *********************contact us******************** -->
+<section class="contact-us flex">
+    <div class="contact-info-wrapper">
+        <CENTER><h1 style="font-size: 25px; background-color:rgb(49, 49, 107); color: white; font-weight: bold; width: 280px; padding: 5px;border-radius: 15px;">Contact Us</h1></CENTER>
+        <br>
+        <div class="contact-info">
+            <div>
+                <div>
+                    <img src="./icons/phone-2.svg" alt="">
+                    <div>
+                        <span>Call us:</span>
+                        <span>(+62) 123 456 789</span>
+                    </div>
+                </div>
+                <div>
+                    <img src="./icons/bag-2.svg" alt="">
+                    <div>
+                        <span>E-mail :</span>
+                        <span>support@gmail.com</span>
+                    </div>
+                </div>
+                <div>
+                    <img src="./icons/clock-2.svg" alt="">
+                    <div>
+                        <span>Open at :</span>
+                        <span> 09.00 - 20.00 </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- ************************footer****************** -->
+        <footer>
+            <div class="container">
+                <div class="box">
+                    <h3>About us</h3>
+                    <p>Selamat datang di Rent Books, destinasi terpercaya untuk memenuhi kebutuhan bacaan Anda! Kami adalah platform sewa buku yang didedikasikan untuk memberikan akses mudah, terjangkau, dan praktis bagi pecinta buku di seluruh dunia.  </p>
+                    <button class="btn btn-secondary">Read More</button>
+                </div>
+                <div class="box">
+                    <h3>More</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>Follow Us</h3>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com">
+                                    <img src="./icons/facebook.svg" alt="">
+                                    <span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com">
+                                    <img src="./icons/twitter.svg" alt="">
+                                    <span>Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./icons/google.svg" alt="">
+                                    <span>Google +</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com">
+                                    <img src="./icons/instagram.svg" alt="">
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <footer class="copyright">
+            <div>
+                Copyright © 2021 . All Rights Reserved .
+            </div>
+        </footer>
+    </body>
+    </html>
